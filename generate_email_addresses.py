@@ -5,6 +5,7 @@ import re
 def generate_email(first_name, last_name):
     # Remove any special characters from the last name
     last_name = re.sub(r'[^a-zA-Z]', '', last_name)
+    first_name = re.sub(r'[^a-zA-Z]', '', first_name)
     email = f"{last_name[0].lower()}{first_name.lower()}@gmail.com"
     return email
 
