@@ -13,5 +13,5 @@ This project processes student data from an Excel file to generate email address
 4. Output files will be saved and backed up.
 
 ## Dependencies:
-- Python 3
+- Python
 - Pandas
